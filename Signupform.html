@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp from</title>
+
+</head>
+<style>
+body{
+    background-image: url('https://img.freepik.com/free-vector/abstact-hexagon-background-memphis-style_1017-31955.jpg?w=1060&t=st=1671885800~exp=1671886400~hmac=5fcec5bd95866343e7a77866be642acc9c3fa5b60297e6bc8f5a5c612daa79a0');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+
+}
+h1{
+    color: orangered;
+    text-align: center;
+    display: grid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    color: orangered;
+    text-align: center;
+    display: grid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+form{
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+</style>
+<body>
+    <h1>Welcome to Sharpener.
+    <br>Your Future. Our Obsession.
+    <h3>Book a call slot and our representative will call you within 1hr of selected time.</h3>
+    <hr><br>
+<form>
+<label for="name">Name:</label>
+<input type="text" placeholder="name" id="name" required />
+<br><br>
+
+<label for="email">Email:</label>
+<input type="email" placeholder="email" id="email" required />
+<br><br>
+
+<label for="number">Phone:</label>
+<input type="tel" placeholder="number" id="number" />
+<br><br>
+
+<label for="timeforcall">Time for Call:</label>
+<input type="date" placeholder=""timeforcall id="timeforcall" />
+
+<label for="time">  </label>
+<input type="time" id="time" />
+<br><br>
+
+<input onclick="callvalue()" type="submit" value="Get a call"
+</form>
+<script src="Signupform.js"></script>
+    
+</body>
+</html>
